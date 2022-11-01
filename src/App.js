@@ -2,8 +2,7 @@ import Form from "./form";
 function App() {
   return (
     <div className="App">
-      <Form form_number='1' />
-        <Form form_number='2' />  
+      <Form  form_title='Name' placeholder='Enter name' />
     </div>
   );
 }
