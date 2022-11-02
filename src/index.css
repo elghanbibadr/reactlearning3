@@ -33,3 +33,15 @@ body{
   border-radius: var(--border-radius);
 }
 
+
+.spendings{
+  background-color: white;
+  margin-top: 1rem;
+  border-radius: var(--border-radius);
+  padding:  1rem;
+}
+
+
+.spendings__title{
+  color: var(--brown);
+}
