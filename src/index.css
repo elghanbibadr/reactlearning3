@@ -109,3 +109,36 @@ h4{
   color: var(--light-Gray);
   font-size: 12px;
 }
+
+/*TOTAL */
+
+.totalCard{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.totalCard p{
+  color: var(--light-Gray);
+}
+
+h1,h5{
+  color: var(--brown);
+}
+
+h1{
+  margin-top: 10px;
+}
+
+.totalFromLastMonth{
+  align-self: flex-end;
+}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display: block !important;
+}
