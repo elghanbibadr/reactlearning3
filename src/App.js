@@ -1,8 +1,9 @@
-import Form from "./form";
+import Balance from "./component/balance";
+
 function App() {
   return (
-    <div className="App">
-      <Form  form_title='Name' placeholder='Enter name' />
+    <div className="container">
+       <Balance/>
     </div>
   );
 }
