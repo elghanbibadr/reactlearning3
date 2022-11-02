@@ -9,13 +9,7 @@ body{
    height: 100vh;
 }
 
-.redBg{
-  background-color: red;
-}
 
-.blackBg{
-  background-color: black;
-}
 
 h1{
   /* margin-block:1rem; */
