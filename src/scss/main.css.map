@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,YAAY,CAAA;EACR,gBAAgB,EAAE,UAAU;CAC/B;;ADAD,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,GAAG;CACxB",
+    "sources": [
+        "main.scss",
+        "../component/ExpenseItem.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
