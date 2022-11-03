@@ -1,6 +1,8 @@
 
-function App() {
-
+function App() {  
+  return(
+    <h1>Starting point</h1>
+  )
 }
 
 
