@@ -1,7 +1,9 @@
 
 function App() {  
   return(
-    <h1>Starting point</h1>
+   <div className="card">
+    <h1>New</h1>
+   </div>
   )
 }
 
