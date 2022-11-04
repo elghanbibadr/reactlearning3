@@ -3,3 +3,18 @@ $darkBlue:#00001a;
 $lightBlue:#1d1c32;
 $lightRed:#f15d51;
 $textColor:#d1cfd3;
+$desktop:900px;
+
+
+// MIXINS
+@mixin desktop {
+    @media screen and (min-width:$desktop) {
+        @content;
+    }
+}
+
+@mixin flex-spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+

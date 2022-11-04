@@ -1,10 +1,8 @@
 
 function App() {  
-  return(
-   <div className="card">
-    <h1>New</h1>
-   </div>
-  )
+ return(
+  <h1>Hello</h1>
+ )
 }
 
 
