@@ -1,0 +1,7 @@
+1-create a stylesheet named General containaing 
+all the reset and mixins and typography and 
+color and variables and general stylesheet
+
+2-create a grid container that will contain oour app
+3-create each component individualy
+4-put the component in grid container

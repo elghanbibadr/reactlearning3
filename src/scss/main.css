@@ -38,7 +38,7 @@ h3 {
 
 p {
   font-size: 1.6rem;
-  color: #b5b5b5;
+  color: #5d5f79;
   word-spacing: 1.1px;
   letter-spacing: 0.4px;
   line-height: 1.4;
@@ -58,5 +58,70 @@ p {
   p {
     font-size: 1.7rem;
   }
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+}
+
+.nav__list {
+  position: absolute;
+  left: 0;
+}
+
+.nav__list, .nav__menuClose {
+  display: none;
+}
+
+.nav__menuClose, .nav__menu, .nav__list-link {
+  cursor: pointer;
+}
+
+.nav__list-link {
+  margin-inline: 1rem;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  color: #5d5f79;
+}
+
+@media screen and (min-width: 900px) {
+  .nav__menu, .nav__menuClose {
+    display: none !important;
+  }
+  .nav__list {
+    display: inherit;
+  }
+  .nav__list-link {
+    margin-inline: 1rem;
+  }
+}
+
+.show {
+  display: block;
+}
+
+@media screen and (min-width: 900px) {
+  .show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+#root {
+  padding: 3rem 2rem;
 }
 /*# sourceMappingURL=main.css.map */

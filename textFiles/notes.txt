@@ -1,0 +1,2 @@
+---> A component in react is just a javascript function (special kind of function that hold html code and javascript => jsx)
+--->for each react component you must have one root element to return the jsx code

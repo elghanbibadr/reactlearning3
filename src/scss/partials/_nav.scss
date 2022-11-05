@@ -1,0 +1,54 @@
+.nav {
+    @include flex-spaceBetween;
+    align-items: flex-end;
+    position: relative;
+    &__list{
+    //   width: 100%;
+      position: absolute;
+      left: 0;
+    }
+
+    &__list,
+    &__menuClose {
+        display: none;
+    }
+
+    &__menuClose,
+    &__menu,
+    &__list-link {
+        cursor: pointer;
+    }
+
+    &__list-link {
+        margin-inline: 1rem;
+        font-size: 1.6rem;
+        text-transform: capitalize;
+        color: $textColor;
+    }
+
+    @include desktop {
+        &__menu,&__menuClose {
+            display: none !important;
+        }
+
+        &__list {
+            display: inherit;
+
+            &-link {
+                margin-inline: 1rem;
+            }
+        }
+    }
+}
+
+
+.show{
+  display: block;
+  @include desktop{
+    display: flex;
+  }
+}
+
+.hide{
+    display: none ;
+}
