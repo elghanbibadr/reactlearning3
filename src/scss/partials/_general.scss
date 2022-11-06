@@ -7,6 +7,11 @@ $desktop:900px;
 
 
 // MIXINS
+@mixin tablette {
+    @media screen and (max-width:$desktop) {
+        @content;
+    }
+}
 @mixin desktop {
     @media screen and (min-width:$desktop) {
         @content;

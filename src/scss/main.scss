@@ -9,4 +9,13 @@
     padding: 3rem 2rem;
 }
 
+body{
+    height: 150vh;
+}
+@include tablette{
+    
+    .bg-black{
+        background-color: rgb(181, 175, 175);
+    }
 
+}    

@@ -73,9 +73,26 @@ p {
   position: relative;
 }
 
-.nav__list {
-  position: absolute;
-  left: 0;
+@media screen and (max-width: 900px) {
+  .nav__menuClose, .nav__list {
+    position: absolute;
+  }
+  .nav__list {
+    right: -2rem;
+    background-color: white;
+    height: 100vh;
+    top: -3rem;
+    width: 50%;
+    padding: 10rem 2rem;
+  }
+  .nav__list li {
+    margin-block: 2rem;
+  }
+  .nav__menuClose {
+    right: 1rem;
+    top: 1.4rem;
+    z-index: 99999;
+  }
 }
 
 .nav__list, .nav__menuClose {
@@ -123,5 +140,15 @@ p {
 
 #root {
   padding: 3rem 2rem;
+}
+
+body {
+  height: 150vh;
+}
+
+@media screen and (max-width: 900px) {
+  .bg-black {
+    background-color: #b5afaf;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -7,11 +7,12 @@ import { useState } from 'react';
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => setIsOpen(!isOpen);
+  document.body.classList.toggle('bg-black')
   const ListState= isOpen ? 'show':'' ;
-  const menuState= isOpen ? 'hide':'' ;
+   const menuState= isOpen ? 'hide':'' ;
   return (
     <div className='nav'>
-      <img className='nav__logo' src={logo} />
+      <img className='nav__logo' src={logo}/>
       <img onClick={handleClick} className={`${menuState} nav__menu`}  src={menu} />
       <img onClick={handleClick} className={`${ListState} nav__menuClose`} src={menuClose} />
       <ul  className= {`${ListState} nav__list`}>
