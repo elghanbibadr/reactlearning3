@@ -41,6 +41,10 @@
         font-size: 1.6rem;
         text-transform: capitalize;
         color: $textColor;
+        transition: color .5s;
+        &:hover{
+            color: #ccc;
+        }
     }
 
     @include desktop {
