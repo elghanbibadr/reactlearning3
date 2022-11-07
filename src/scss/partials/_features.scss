@@ -1,0 +1,20 @@
+.features{
+    margin-top: 4rem;
+    display: flex;
+    column-gap: 2rem;
+    &__image-box{
+        img{
+            margin-bottom: 2rem;
+             height: 140px;
+        }
+    }
+
+
+   &__number{
+    color: $textColor;
+   }
+    
+    &__title{
+        margin-block: 1rem;
+    }
+}

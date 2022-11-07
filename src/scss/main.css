@@ -225,6 +225,28 @@ p {
   padding-bottom: 2rem;
 }
 
+.features {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
+.features__image-box img {
+  margin-bottom: 2rem;
+  height: 140px;
+}
+
+.features__number {
+  color: #5d5f79;
+}
+
+.features__title {
+  margin-block: 1rem;
+}
+
 #root {
   padding: 3rem 2rem;
 }
