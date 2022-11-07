@@ -144,8 +144,73 @@ p {
   display: none;
 }
 
+.hero {
+  margin-top: 4rem;
+}
+
+.hero__desc {
+  margin-block: 2rem;
+}
+
+@media screen and (min-width: 900px) {
+  .hero__desc {
+    max-width: 50ch;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hero__desc-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.hero__imgBox {
+  height: 400px;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.hero__image {
+  background-image: url(/src/images/image-web-3-mobile.jpg);
+  height: 100%;
+  width: inherit;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 900px) {
+  .hero__image {
+    background-image: url(/src/images/image-web-3-desktop.jpg);
+    background-size: contain;
+  }
+}
+
+.hero__btn {
+  padding: 1.6rem 2rem;
+  background-color: #f15d51;
+  color: white;
+  font-weight: 600;
+  border: 0;
+  font-size: 1.6rem;
+  letter-spacing: 1.6px;
+  cursor: pointer;
+  -webkit-transition: background 0.7s;
+  transition: background 0.7s;
+}
+
+.hero__btn:hover {
+  background-color: #00001a;
+}
+
 #root {
   padding: 3rem 2rem;
+}
+
+@media screen and (min-width: 900px) {
+  #root {
+    padding: 5rem;
+  }
 }
 
 body {

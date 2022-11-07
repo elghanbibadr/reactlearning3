@@ -6,8 +6,10 @@ import { useState } from 'react';
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
-  const handleClick = () => setIsOpen(!isOpen);
-  document.body.classList.toggle('bg-black')
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+    document.body.classList.toggle('bg-black');
+  };
   const ListState= isOpen ? 'show':'' ;
    const menuState= isOpen ? 'hide':'' ;
   return (

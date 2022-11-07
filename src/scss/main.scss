@@ -3,10 +3,13 @@
 @import './partials/reset';
 @import './partials/typography';
 @import './partials/nav';
-
+@import './partials/hero';
 
 #root{
     padding: 3rem 2rem;
+    @include desktop{
+        padding: 5rem;
+    }
 }
 
 body{
