@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 h3 {
@@ -145,7 +145,7 @@ p {
 }
 
 .hero {
-  margin-top: 4rem;
+  margin-block: 4rem;
 }
 
 .hero__desc {
@@ -201,6 +201,28 @@ p {
 
 .hero__btn:hover {
   background-color: #00001a;
+}
+
+.news {
+  background-color: #00001a;
+  padding: 2rem 2rem 0;
+}
+
+.news__title {
+  color: white;
+  margin-block: 1rem;
+  cursor: pointer;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+.news__title:hover {
+  color: #eda217;
+}
+
+.news__text {
+  border-bottom: 1px solid rgba(179, 179, 179, 0.341);
+  padding-bottom: 2rem;
 }
 
 #root {
