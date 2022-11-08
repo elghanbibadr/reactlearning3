@@ -11,6 +11,11 @@
     padding: 3rem 2rem;
     @include desktop{
         padding: 5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:50px auto 1fr;
+        gap: 1rem;
+        // align-items: center;
     }
 }
 
